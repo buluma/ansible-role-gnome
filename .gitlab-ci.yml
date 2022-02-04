@@ -28,8 +28,8 @@ molecule:
         tag: "34"
       - image: "fedora"
         tag: "latest"
-      - image: "fedora"
-        tag: "rawhide"
+      # - image: "fedora"   # TODO: check rawhide build
+      #  tag: "rawhide"
       - image: "opensuse"
         tag: "latest"
       - image: "ubuntu"
