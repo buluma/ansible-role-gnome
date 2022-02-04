@@ -41,7 +41,7 @@ testing:
   script:
     - image=${image} tag=${tag} molecule test
   rules:
-    - if: $CI_COMMIT_REF_NAME == "main"
+    - if: $CI_COMMIT_REF_NAME == "testing"
   retry: 1
   parallel:
     matrix:
