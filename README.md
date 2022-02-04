@@ -4,7 +4,7 @@ Install Gnome on your system.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-gnome/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-gnome/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-gnome/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-gnome)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/buluma/gnome)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/gnome)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-gnome.svg)](https://github.com/buluma/ansible-role-gnome/releases/)|
+|[![github](https://github.com/buluma/ansible-role-gnome/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-gnome/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-gnome/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-gnome)|[![quality](https://img.shields.io/ansible/quality/57930)](https://galaxy.ansible.com/buluma/gnome)|[![downloads](https://img.shields.io/ansible/role/d/57930)](https://galaxy.ansible.com/buluma/gnome)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-gnome.svg)](https://github.com/buluma/ansible-role-gnome/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
