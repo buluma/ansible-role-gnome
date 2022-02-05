@@ -43,6 +43,8 @@ jobs:
             tag: "rawhide"
           - image: "oraclelinux"
             tag: "latest"
+          - image: "docker-opensuse-systemd"
+            tag: "latest"
     steps:
       - name: checkout
         uses: actions/checkout@v2

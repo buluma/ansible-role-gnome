@@ -49,6 +49,12 @@ testing:
         tag: "latest"
       - image: "oraclelinux"
         tag: "latest"
+      - image: "docker-opensuse-systemd"
+        tag: "latest"
+      - image: "opensuse"
+        tag: "latest"
+      - image: "enterpriselinux"
+        tag: "latest"
 
 galaxy:
   script:
