@@ -47,6 +47,8 @@ testing:
     matrix:
       - image: "alpine"
         tag: "latest"
+      - image: "oraclelinux"
+        tag: "8"
 
 galaxy:
   script:
