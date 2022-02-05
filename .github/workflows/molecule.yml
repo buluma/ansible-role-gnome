@@ -36,26 +36,14 @@ jobs:
       fail-fast: false
       matrix:
         config:
-          - image: "alpine"
-            tag: "latest"
-          - image: "debian"
-            tag: "latest"
-          - image: "debian"
-            tag: "bookworm"
-          - image: "enterpriselinux"
-            tag: "latest"
           - image: "fedora"
             tag: "34"
           - image: "fedora"
             tag: "latest"
           - image: "fedora"
             tag: "rawhide"
-          - image: "opensuse"
+          - image: "docker-opensuse-systemd"
             tag: "latest"
-          - image: "ubuntu"
-            tag: "latest"
-          - image: "ubuntu"
-            tag: "bionic"
     steps:
       - name: checkout
         uses: actions/checkout@v2.4.0
