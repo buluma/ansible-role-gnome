@@ -41,8 +41,6 @@ jobs:
             tag: "latest"
           - image: "fedora"
             tag: "rawhide"
-          - image: "oraclelinux"
-            tag: "7"
           - image: "docker-opensuse-systemd"
             tag: "latest"
     steps:

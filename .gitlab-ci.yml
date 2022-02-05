@@ -16,8 +16,6 @@ molecule:
   retry: 1
   parallel:
     matrix:
-      - image: "alpine"
-        tag: "latest"
       - image: "debian"
         tag: "latest"
       - image: "debian"
@@ -45,13 +43,13 @@ testing:
   retry: 1
   parallel:
     matrix:
-      - image: "alpine"
-        tag: "edge"
       - image: "docker-opensuse-systemd"
         tag: "latest"
       - image: "opensuse"
         tag: "latest"
       - image: "enterpriselinux"
+        tag: "latest"
+      - image: "fedora"
         tag: "latest"
 
 galaxy:
