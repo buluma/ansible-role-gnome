@@ -42,7 +42,7 @@ jobs:
           - image: "fedora"
             tag: "rawhide"
           - image: "oraclelinux"
-            tag: "8"
+            tag: "latest"
     steps:
       - name: checkout
         uses: actions/checkout@v2
