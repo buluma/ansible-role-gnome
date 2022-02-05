@@ -46,9 +46,7 @@ testing:
   parallel:
     matrix:
       - image: "alpine"
-        tag: "latest"
-      - image: "oraclelinux"
-        tag: "7"
+        tag: "edge"
       - image: "docker-opensuse-systemd"
         tag: "latest"
       - image: "opensuse"
