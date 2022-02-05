@@ -48,7 +48,7 @@ testing:
       - image: "alpine"
         tag: "latest"
       - image: "oraclelinux"
-        tag: "latest"
+        tag: "7"
       - image: "docker-opensuse-systemd"
         tag: "latest"
       - image: "opensuse"
