@@ -19,8 +19,6 @@ molecule:
       - image: "enterpriselinux"
         tag: "latest"
       - image: "fedora"
-        tag: "34"
-      - image: "fedora"
         tag: "latest"
       # - image: "fedora"   # TODO: check rawhide build
       #  tag: "rawhide"
@@ -35,13 +33,11 @@ testing:
   retry: 1
   parallel:
     matrix:
-      - image: "docker-opensuse-systemd"
-        tag: "latest"
-      - image: "opensuse"
-        tag: "latest"
       - image: "enterpriselinux"
         tag: "latest"
       - image: "fedora"
+        tag: "latest"
+      - image: "opensuse"
         tag: "latest"
 
 galaxy:
