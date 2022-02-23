@@ -8,7 +8,8 @@ name: Ansible Molecule
 on:
   push:
     branches:
-      - '**'
+      - main
+      - testing
     tags-ignore:
       - '*'
   pull_request:
