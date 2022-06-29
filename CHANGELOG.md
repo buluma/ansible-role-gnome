@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-gnome/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-gnome/compare/1.0.6...HEAD)
+
+**Merged pull requests:**
+
+- Bump buluma/galaxy-action from 1.0.3 to 6.25.22 [\#19](https://github.com/buluma/ansible-role-gnome/pull/19) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [1.0.6](https://github.com/buluma/ansible-role-gnome/tree/1.0.6) (2022-03-29)
 
 [Full Changelog](https://github.com/buluma/ansible-role-gnome/compare/1.0.5...1.0.6)
