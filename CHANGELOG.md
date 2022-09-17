@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-gnome/tree/HEAD)
+## [1.0.7](https://github.com/buluma/ansible-role-gnome/tree/1.0.7) (2022-06-29)
 
-[Full Changelog](https://github.com/buluma/ansible-role-gnome/compare/1.0.6...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-gnome/compare/1.0.6...1.0.7)
 
 **Merged pull requests:**
 
