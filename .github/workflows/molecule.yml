@@ -41,7 +41,7 @@ jobs:
           - image: "debian-systemd"
             tag: "latest"
           - image: "debian-systemd"
-            tag: "bookworm"
+            tag: "buster"
           - image: "enterpriselinux"
             tag: "latest"
           - image: "fedora-systemd"
