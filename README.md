@@ -1,10 +1,10 @@
-# [gnome](#gnome)
+# [Ansible role gnome](#gnome)
 
 Install Gnome on your system.
 
-|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-gnome/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-gnome/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-gnome/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-gnome)|[![quality](https://img.shields.io/ansible/quality/57930)](https://galaxy.ansible.com/buluma/gnome)|[![downloads](https://img.shields.io/ansible/role/d/57930)](https://galaxy.ansible.com/buluma/gnome)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-gnome.svg)](https://github.com/buluma/ansible-role-gnome/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-gnome.svg)](https://github.com/buluma/ansible-role-gnome/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-gnome.svg)](https://github.com/buluma/ansible-role-gnome/pulls/)|
+|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-gnome/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-gnome/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-gnome/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-gnome)|[![downloads](https://img.shields.io/ansible/role/d/4720)](https://galaxy.ansible.com/buluma/gnome)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-gnome.svg)](https://github.com/buluma/ansible-role-gnome/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-gnome.svg)](https://github.com/buluma/ansible-role-gnome/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-gnome.svg)](https://github.com/buluma/ansible-role-gnome/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -70,7 +70,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 |[opensuse](https://hub.docker.com/repository/docker/buluma/opensuse/general)|all|
 |[Ubuntu](https://hub.docker.com/repository/docker/buluma/ubuntu/general)|all|
 
-The minimum version of Ansible required is 2.10, tests have been done to:
+The minimum version of Ansible required is 2.12, tests have been done to:
 
 - The previous version.
 - The current version.
