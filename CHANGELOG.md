@@ -39,7 +39,6 @@
 **Merged pull requests:**
 
 - breaker [\#14](https://github.com/buluma/ansible-role-gnome/pull/14) ([buluma](https://github.com/buluma))
-- Update molecule.yml [\#11](https://github.com/buluma/ansible-role-gnome/pull/11) ([buluma](https://github.com/buluma))
 
 ## [1.0.2](https://github.com/buluma/ansible-role-gnome/tree/1.0.2) (2022-02-14)
 
@@ -54,6 +53,7 @@
 
 - Bump buluma/molecule-action from 4.0.5 to 4.0.6 [\#13](https://github.com/buluma/ansible-role-gnome/pull/13) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Update .gitlab-ci.yml [\#12](https://github.com/buluma/ansible-role-gnome/pull/12) ([buluma](https://github.com/buluma))
+- Update molecule.yml [\#11](https://github.com/buluma/ansible-role-gnome/pull/11) ([buluma](https://github.com/buluma))
 
 ## [1.0.1](https://github.com/buluma/ansible-role-gnome/tree/1.0.1) (2022-02-04)
 
