@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-gnome/tree/HEAD)
+## [1.0.8](https://github.com/buluma/ansible-role-gnome/tree/1.0.8) (2023-11-18)
 
-[Full Changelog](https://github.com/buluma/ansible-role-gnome/compare/1.0.7...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-gnome/compare/1.0.7...1.0.8)
 
 **Closed issues:**
 
