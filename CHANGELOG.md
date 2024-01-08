@@ -2,7 +2,16 @@
 
 ## [Unreleased](https://github.com/buluma/ansible-role-gnome/tree/HEAD)
 
-[Full Changelog](https://github.com/buluma/ansible-role-gnome/compare/1.0.9...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-gnome/compare/1.1.0...HEAD)
+
+**Merged pull requests:**
+
+- Bump actions/checkout from 3 to 4 [\#30](https://github.com/buluma/ansible-role-gnome/pull/30) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.5 to 1.0.8 [\#29](https://github.com/buluma/ansible-role-gnome/pull/29) ([dependabot[bot]](https://github.com/apps/dependabot))
+
+## [1.1.0](https://github.com/buluma/ansible-role-gnome/tree/1.1.0) (2024-01-02)
+
+[Full Changelog](https://github.com/buluma/ansible-role-gnome/compare/1.0.9...1.1.0)
 
 **Closed issues:**
 
