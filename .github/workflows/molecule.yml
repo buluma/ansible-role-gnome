@@ -78,7 +78,7 @@ jobs:
 
   dependabot:
     name: 'Dependabot'
-    # needs: [build]
+    needs: [lint, test]
     runs-on: ubuntu-latest
     if: ${{ github.actor == 'dependabot[bot]' || github.actor == 'buluma' && github.event_name == 'pull_request'}}
     steps:
