@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bump buluma/dependabot-auto-merge-action from 2.1.1 to 2.1.2 [\#36](https://github.com/buluma/ansible-role-gnome/pull/36) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#35](https://github.com/buluma/ansible-role-gnome/pull/35) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 5 to 6 [\#34](https://github.com/buluma/ansible-role-gnome/pull/34) ([dependabot[bot]](https://github.com/apps/dependabot))
 
@@ -74,6 +75,7 @@
 **Merged pull requests:**
 
 - Testing concurrency [\#16](https://github.com/buluma/ansible-role-gnome/pull/16) ([buluma](https://github.com/buluma))
+- more testing [\#8](https://github.com/buluma/ansible-role-gnome/pull/8) ([buluma](https://github.com/buluma))
 
 ## [1.0.3](https://github.com/buluma/ansible-role-gnome/tree/1.0.3) (2022-02-23)
 
@@ -108,7 +110,6 @@
 
 **Merged pull requests:**
 
-- more testing [\#8](https://github.com/buluma/ansible-role-gnome/pull/8) ([buluma](https://github.com/buluma))
 - Testing local [\#6](https://github.com/buluma/ansible-role-gnome/pull/6) ([buluma](https://github.com/buluma))
 
 ## [1.0.0](https://github.com/buluma/ansible-role-gnome/tree/1.0.0) (2022-02-04)
