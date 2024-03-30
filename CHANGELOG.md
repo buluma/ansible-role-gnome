@@ -26,6 +26,7 @@
 **Merged pull requests:**
 
 - Bump actions/checkout from 3 to 4 [\#30](https://github.com/buluma/ansible-role-gnome/pull/30) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.5 to 1.0.8 [\#29](https://github.com/buluma/ansible-role-gnome/pull/29) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.1.0](https://github.com/buluma/ansible-role-gnome/tree/1.1.0) (2024-01-02)
 
@@ -99,7 +100,6 @@
 
 **Merged pull requests:**
 
-- Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.5 to 1.0.8 [\#29](https://github.com/buluma/ansible-role-gnome/pull/29) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/molecule-action from 4.0.5 to 4.0.6 [\#13](https://github.com/buluma/ansible-role-gnome/pull/13) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Update .gitlab-ci.yml [\#12](https://github.com/buluma/ansible-role-gnome/pull/12) ([buluma](https://github.com/buluma))
 - Update molecule.yml [\#11](https://github.com/buluma/ansible-role-gnome/pull/11) ([buluma](https://github.com/buluma))
