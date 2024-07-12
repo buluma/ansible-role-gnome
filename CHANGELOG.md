@@ -18,6 +18,7 @@
 **Merged pull requests:**
 
 - Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#33](https://github.com/buluma/ansible-role-gnome/pull/33) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump buluma/galaxy-action from 1.0.3 to 6.25.22 [\#19](https://github.com/buluma/ansible-role-gnome/pull/19) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.2.0](https://github.com/buluma/ansible-role-gnome/tree/1.2.0) (2024-01-09)
 
@@ -52,10 +53,6 @@
 ## [1.0.7](https://github.com/buluma/ansible-role-gnome/tree/1.0.7) (2022-06-29)
 
 [Full Changelog](https://github.com/buluma/ansible-role-gnome/compare/1.0.6...1.0.7)
-
-**Merged pull requests:**
-
-- Bump buluma/galaxy-action from 1.0.3 to 6.25.22 [\#19](https://github.com/buluma/ansible-role-gnome/pull/19) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [1.0.6](https://github.com/buluma/ansible-role-gnome/tree/1.0.6) (2022-03-29)
 
