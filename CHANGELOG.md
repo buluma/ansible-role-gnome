@@ -4,6 +4,11 @@
 
 [Full Changelog](https://github.com/buluma/ansible-role-gnome/compare/24.3.31...HEAD)
 
+**Closed issues:**
+
+- Update action [\#27](https://github.com/buluma/ansible-role-gnome/issues/27)
+- rebuild action [\#26](https://github.com/buluma/ansible-role-gnome/issues/26)
+
 **Merged pull requests:**
 
 - Bump ansible/ansible-lint from 24.12.2 to 25.1.0 [\#46](https://github.com/buluma/ansible-role-gnome/pull/46) ([dependabot[bot]](https://github.com/apps/dependabot))
