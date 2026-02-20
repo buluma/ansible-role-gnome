@@ -8,3 +8,4 @@
     - name: Check gnome-session
       ansible.builtin.command:
         cmd: gnome-session --help
+      changed_when: false
