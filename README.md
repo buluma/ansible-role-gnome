@@ -12,13 +12,15 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
 
 ```yaml
 ---
-- name: converge
+- name: Converge
   hosts: all
   become: true
   gather_facts: true
   pre_tasks:
     - name: Update apt cache.
-      apt: update_cache=true cache_valid_time=600
+      ansible.builtin.apt:
+        update_cache: true
+        cache_valid_time: 600
       when: ansible_os_family == 'Debian'
 
   roles:
@@ -29,7 +31,7 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
 
 ```yaml
 ---
-- name: prepare
+- name: Prepare
   hosts: all
   become: true
   gather_facts: false
