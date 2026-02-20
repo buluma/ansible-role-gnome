@@ -21,7 +21,6 @@ _gnome_packages:
   RedHat: &redhat_packages
     - "@Server with GUI"
   Rocky: *redhat_packages
-
 gnome_packages: "{{ _gnome_packages[ansible_distribution] | default(_gnome_packages[ansible_os_family] | default(_gnome_packages['default'] )) }}"
 
 gnome_exclude:
