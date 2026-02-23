@@ -1,11 +1,11 @@
 ---
-  - name: Verify
-    hosts: all
-    become: true
-    gather_facts: false
+- name: Verify
+  hosts: all
+  become: true
+  gather_facts: false
 
-    tasks:
-      - name: Check gnome-session
-        ansible.builtin.command:
-          cmd: gnome-session --help
-        changed_when: false
+  tasks:
+  - name: Check gnome-session
+    ansible.builtin.command:
+      cmd: gnome-session --help
+    changed_when: false
