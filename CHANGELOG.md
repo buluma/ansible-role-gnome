@@ -11,6 +11,7 @@
 
 **Merged pull requests:**
 
+- Bump docker/setup-buildx-action from 3 to 4 [\#48](https://github.com/buluma/ansible-role-gnome/pull/48) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.12.2 to 25.1.0 [\#46](https://github.com/buluma/ansible-role-gnome/pull/46) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.12.1 to 24.12.2 [\#45](https://github.com/buluma/ansible-role-gnome/pull/45) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 24.12.0 to 24.12.1 [\#44](https://github.com/buluma/ansible-role-gnome/pull/44) ([dependabot[bot]](https://github.com/apps/dependabot))
@@ -75,6 +76,7 @@
 **Merged pull requests:**
 
 - Bump buluma/galaxy-action from 1.0.3 to 6.25.22 [\#19](https://github.com/buluma/ansible-role-gnome/pull/19) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update .gitlab-ci.yml [\#12](https://github.com/buluma/ansible-role-gnome/pull/12) ([buluma](https://github.com/buluma))
 
 ## [1.0.6](https://github.com/buluma/ansible-role-gnome/tree/1.0.6) (2022-03-29)
 
@@ -120,7 +122,6 @@
 **Merged pull requests:**
 
 - Bump buluma/molecule-action from 4.0.5 to 4.0.6 [\#13](https://github.com/buluma/ansible-role-gnome/pull/13) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Update .gitlab-ci.yml [\#12](https://github.com/buluma/ansible-role-gnome/pull/12) ([buluma](https://github.com/buluma))
 - Update molecule.yml [\#11](https://github.com/buluma/ansible-role-gnome/pull/11) ([buluma](https://github.com/buluma))
 
 ## [1.0.1](https://github.com/buluma/ansible-role-gnome/tree/1.0.1) (2022-02-04)
