@@ -26,18 +26,14 @@
     - ansible_facts['distribution'] == "Fedora"
     - ansible_facts['distribution_major_version'] | int > 33
 
+  # gdm.service's [Install] section uses Alias=display-manager.service on
+  # newer gdm3 packaging (Ubuntu 26.04+) rather than a WantedBy=, so
+  # `systemctl enable gdm` only ever creates the display-manager.service
+  # alias symlink - `systemctl status gdm` keeps reporting the gdm unit
+  # itself as "disabled", making `enabled: true` perpetually non-idempotent.
+  # The gdm3 package's own postinst already wires up the display-manager
+  # alias at install time, so only manage the running state here.
 - name: Start gnome display manager
   ansible.builtin.service:
     name: gdm
     state: started
-    enabled: true
-
-- name: Debug | Print gdm status after starting it.
-  ansible.builtin.command: systemctl status gdm --no-pager -l
-  changed_when: false
-  failed_when: false
-  register: gdm_status
-
-- name: Debug | Show gdm status output.
-  ansible.builtin.debug:
-    var: gdm_status.stdout_lines
