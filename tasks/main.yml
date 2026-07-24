@@ -31,3 +31,13 @@
     name: gdm
     state: started
     enabled: true
+
+- name: Debug | Print gdm status after starting it.
+  ansible.builtin.command: systemctl status gdm --no-pager -l
+  changed_when: false
+  failed_when: false
+  register: gdm_status
+
+- name: Debug | Show gdm status output.
+  ansible.builtin.debug:
+    var: gdm_status.stdout_lines
